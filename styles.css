@@ -1,8 +1,42 @@
-/*
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+/* Base Layers */
 
-If your plugin does not need CSS, delete this file.
+.bd_root {
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
 
-*/
+.db_left_handle {
+    width: 33%;
+    background-color: red;
+}
+
+.db_center_handle {
+    width: 33%;
+    background-color: red;
+}
+
+.db_right_handle {
+    width: 33%;
+    background-color: red;
+}
+
+.db_scrolling_box {
+    background-color: blue;
+}
+
+/* Title box */
+
+.db_title_root {
+    background-color: aqua;
+    width: 100%;
+}
+
+.db_date {
+    background-color: blue;
+    font-size: 35pt;
+    text-align: center;
+}
